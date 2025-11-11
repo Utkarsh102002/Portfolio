@@ -1,8 +1,8 @@
 import React from "react";
-// import m1 from "../assets/m1.png"; // Import testimonial images (make sure file names/case match exactly!)
-// import m2 from "../assets/m2.png";
-// import w1 from "../assets/w1.png";
 import w1 from "../assets/1.jpg";
+import m2 from "../assets/1739558696937.jpeg";
+import m1 from "../assets/s.jpeg";
+import w2 from "../assets/su.jpeg"
 import { motion } from "framer-motion";
 
 // Shortcut motion components for readability
@@ -13,30 +13,30 @@ const MDiv = motion.div;
 const testimonials = [
   {
     name: "Sujal Chandrakar",
-    role: "Software Engineer at Fridoo",
+    role: "Software Engineer at Frido ",
     review:
       "Utkarsh is a visionary developer. His attention to detail and creativity blew us away. Our project was a massive success because of him.",
-    // image: m1,
+    image: m1,
   },
   {
     name: "Shubham Shrivastava",
     role: "UI/UX Designer at Ting",
     review:
       "Working with Utkarsh was an absolute pleasure. He brings design and code together like magic. Highly recommend him!",
-    // image: w1,
+    image: w2,
   },
   {
     name: "Ayush Shrivastava",
     role: "Product Manager at Dalmia Cememnt",
     review:
       "From concept to execution, Utkarsh handled everything flawlessly. His work ethic and innovation are unmatched.",
-    // image: m2,
+    image: m2,
   },
   {
     name: "Pratham Dharmani",
     role: "Software Developer At TCS",
     review:
-      "Utkarsh transformed our outdated platform into something modern and powerful. His skills are world-class.",
+      "Utkarsh transformed our outdated project into something modern and powerful. His skills are world-class.",
     image: w1,
   },
 ];
