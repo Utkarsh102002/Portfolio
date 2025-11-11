@@ -37,7 +37,7 @@ const testimonials = [
     role: "Software Developer At TCS",
     review:
       "Utkarsh transformed our outdated platform into something modern and powerful. His skills are world-class.",
-    // image: w2,
+      image: w2,
   },
 ];
 
