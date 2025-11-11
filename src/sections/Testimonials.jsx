@@ -2,7 +2,7 @@ import React from "react";
 // import m1 from "../assets/m1.png"; // Import testimonial images (make sure file names/case match exactly!)
 // import m2 from "../assets/m2.png";
 // import w1 from "../assets/w1.png";
-// import w2 from "../assets/w2.png";
+import w2 from "../assets/w2.png";
 import { motion } from "framer-motion";
 
 // Shortcut motion components for readability
