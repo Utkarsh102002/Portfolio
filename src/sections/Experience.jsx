@@ -6,23 +6,23 @@ import { motion, useScroll, useTransform } from "framer-motion";
 // ==========================
 const experiences = [
   {
-    role: " Intern",
-    company: "Wenvoid Limited",
-    duration: "2022 - 2023",
-    description:
-      "Worked with team to build high-performance apps, integrated AI features, and improved engagement by 10%.",
-  },
-  {
     role: "Graduate Engineer Trainee",
-    company: "HCL Technologies",
-    duration: "2023 - 2024",
+    company: "Madhya Pradesh Poorv Kshetra Vidyut Vitaran Company Limited",
+    duration: "2024",
     description:
-      "Worked as a Tester on a large Scale Life Science Project. Developed test cases, executed tests, and reported bugs to ensure quality.",
+      "Completed Electrical Engineering industrial training at CTI Jabalpur with hands-on work in power systems, control panels, and industrial safety.",
   },
   {
-    role: "Software Developer",
-    company: "Syneos Health",
-    duration: "2024 - 2025",
+    role: "Solar Engineer Trainee",
+    company: "STRAMAN SOLAR GWALIOR",
+    duration: "2025",
+    description:
+      "Worked in marketing and sales at Starman Solar, Gwalior, promoting solar solutions and managing customer acquisition.",
+  },
+  {
+    role: "Full Stach Developer",
+    company: "AccioJob",
+    duration: "2025-Present",
     description:
       "Implemented UI features, fixed bugs, and contributed to scalable codebases.",
   },
