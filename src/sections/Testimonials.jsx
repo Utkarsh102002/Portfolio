@@ -15,7 +15,7 @@ const testimonials = [
     name: "Sujal Chandrakar",
     role: "Software Engineer at Fridoo",
     review:
-      "Gaurav is a visionary developer. His attention to detail and creativity blew us away. Our project was a massive success because of him.",
+      "Utkarsh is a visionary developer. His attention to detail and creativity blew us away. Our project was a massive success because of him.",
     // image: m1,
   },
   {
