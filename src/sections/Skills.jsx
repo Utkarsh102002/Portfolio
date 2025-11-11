@@ -20,17 +20,17 @@ import { DiNodejsSmall } from "react-icons/di";
 export default function Skills() {
   // 🟢 Skills list
   const skills = [
-    { icon: <FaJava />, name: "Java" },
+    { icon: <FaJava />, name: "JavaScript" },
     { icon: <FaReact />, name: "React" },
     { icon: <SiNextdotjs />, name: "Next.js" },
     { icon: <SiTypescript />, name: "TypeScript" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS" },
     { icon: <SiFastapi />, name: "FastAPI" },
-    { icon: <SiPython />, name: "Python" },
-    { icon: <SiDocker />, name: "Docker" },
+    { icon: <SiPython />, name: "OPEN AI" },
+    { icon: <SiDocker />, name: "C++" },
     { icon: <DiNodejsSmall />, name: "Node.js" },
     { icon: <SiMongodb />, name: "MongoDB" },
-    { icon: <SiAngular />, name: "Angular" },
+    { icon: <SiAngular />, name: "GSAP" },
   ];
 
   // 🔁 Duplicate list (2x is enough for seamless loop)
