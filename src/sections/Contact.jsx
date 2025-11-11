@@ -90,7 +90,7 @@ const Contact = () => {
         transition={{ duration: 0.6 }}
         className="w-full md:w-1/2 bg-white/5 p-8 rounded-2xl shadow-lg border border-white/10"
       >
-        <h2 className="text-3xl font-bold mb-6">Let’s Work Together</h2>
+        <h2 className="text-3xl font-bold mb-6">Let’s Connect</h2>
 
         <form className="flex flex-col gap-5" onSubmit={handleSubmit}>
           {/* Name */}
