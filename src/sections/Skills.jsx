@@ -28,7 +28,6 @@ const skills = [
   { icon: <SiNextdotjs />, name: "Next.js" },
   { icon: <SiTypescript />, name: "TypeScript" },
   { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-  { icon: <FaJava />, name: "Java" },
   { icon: <SiFastapi />, name: "FastAPI" },
   { icon: <SiOpenai />, name: "OpenAI" },
   { icon: <SiCplusplus />, name: "C++" },
