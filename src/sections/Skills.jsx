@@ -4,34 +4,39 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 
 // Tech stack icons
-import { FaJava, FaReact } from "react-icons/fa";
+import { FaReact, FaJava } from "react-icons/fa";
+import { FaJsSquare } from "react-icons/fa";
 import {
   SiNextdotjs,
   SiTypescript,
   SiTailwindcss,
   SiFastapi,
-  SiPython,
+  SiOpenai,
   SiDocker,
   SiMongodb,
   SiAngular,
+  SiGreensock,
 } from "react-icons/si";
 import { DiNodejsSmall } from "react-icons/di";
+import { SiCplusplus } from "react-icons/si";
 
 export default function Skills() {
   // 🟢 Skills list
-  const skills = [
-    { icon: <FaJava />, name: "JavaScript" },
-    { icon: <FaReact />, name: "React" },
-    { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <SiTypescript />, name: "TypeScript" },
-    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-    { icon: <SiFastapi />, name: "FastAPI" },
-    { icon: <SiPython />, name: "OPEN AI" },
-    { icon: <SiDocker />, name: "C++" },
-    { icon: <DiNodejsSmall />, name: "Node.js" },
-    { icon: <SiMongodb />, name: "MongoDB" },
-    { icon: <SiAngular />, name: "GSAP" },
-  ];
+const skills = [
+  { icon: <FaJsSquare />, name: "JavaScript" },
+  { icon: <FaReact />, name: "React" },
+  { icon: <SiNextdotjs />, name: "Next.js" },
+  { icon: <SiTypescript />, name: "TypeScript" },
+  { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+  { icon: <FaJava />, name: "Java" },
+  { icon: <SiFastapi />, name: "FastAPI" },
+  { icon: <SiOpenai />, name: "OpenAI" },
+  { icon: <SiCplusplus />, name: "C++" },
+  { icon: <DiNodejsSmall />, name: "Node.js" },
+  { icon: <SiMongodb />, name: "MongoDB" },
+  { icon: <SiGreensock />, name: "GSAP" },
+];
+
 
   // 🔁 Duplicate list (2x is enough for seamless loop)
   const repeatedSkills = [...skills, ...skills];
