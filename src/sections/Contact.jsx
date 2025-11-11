@@ -136,11 +136,11 @@ const Contact = () => {
           {/* Idea */}
           <div className="flex flex-col">
             <label>
-              Explain Your Enquiry <span className="text-red-500">*</span>
+              Your Message <span className="text-red-500">*</span>
             </label>
             <textarea
               name="idea"
-              placeholder="Explain your idea..."
+              placeholder="let connect ... "
               rows={5}
               value={formData.idea}
               onChange={handleChange}
