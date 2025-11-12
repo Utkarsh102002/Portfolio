@@ -6,25 +6,25 @@ import { motion, useScroll, useTransform } from "framer-motion";
 // ==========================
 const experiences = [
   {
-    role: "Graduate Engineer Trainee",
-    company: "Madhya Pradesh Poorv Kshetra Vidyut Vitaran Company Limited",
-    duration: "2024",
+    role: "Engineer Trainee",
+    company: "MPPKVVCL, Jabalpur",
+    duration: "May 2024 - July 2024",
     description:
       "Completed Electrical Engineering industrial training at CTI Jabalpur with hands-on work in power systems, control panels, and industrial safety.",
   },
   {
     role: "Solar Engineer Trainee",
-    company: "STRAMAN SOLAR GWALIOR",
-    duration: "2025",
+    company: "STRAMAN SOLAR, GWALIOR",
+    duration: "Jan 2025 - April 2025",
     description:
       "Worked in marketing and sales at Starman Solar, Gwalior, promoting solar solutions and managing customer acquisition.",
   },
   {
     role: "Full Stach Developer",
-    company: "AccioJob",
-    duration: "2025-Present",
+    company: "AccioJob, Noida",
+    duration: " July 2025-Present",
     description:
-      "Implemented UI features, fixed bugs, and contributed to scalable codebases.",
+      "Completed hands-on training in the MERN stack (MongoDB, Express.js, React.js, Node.js), developing and deploying multiple scalable web applications with focus on modularity, readability, and component reusabilit",
   },
 ];
 
@@ -49,7 +49,9 @@ function ExperienceItem({ exp, idx, start, end, scrollYProgress, layout }) {
           style={{ scale: markerScale, opacity: markerOpacity }}
         />
         <motion.div
-          className={`absolute ${isAbove ? "-top-8" : "-bottom-8"} w-[3px] bg-white/40`}
+          className={`absolute ${
+            isAbove ? "-top-8" : "-bottom-8"
+          } w-[3px] bg-white/40`}
           style={{ height: 40, opacity: cardOpacity }}
         />
         <motion.article
@@ -60,8 +62,9 @@ function ExperienceItem({ exp, idx, start, end, scrollYProgress, layout }) {
           transition={{ duration: 0.4, delay: idx * 0.15 }}
         >
           <h3 className="text-xl font-semibold">{exp.role}</h3>
+
           <p className="text-md text-gray-400 mb-3">
-            {exp.company} | {exp.duration}
+            {exp.company} <br></br> {exp.duration}
           </p>
           <p className="text-md text-gray-300 break-words">{exp.description}</p>
         </motion.article>

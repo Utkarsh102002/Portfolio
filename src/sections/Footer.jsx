@@ -114,7 +114,7 @@ const Footer = () => {
         {/* --- Personal Quote / Tagline --- */}
         {/* Replace this with your favorite quote or brand message */}
         <p className="text-gray-300 italic max-w-xl">
-          “Success is when preparation meets opportunity.”
+          "DO HARDWORK UNTIL IT BECOME SMART”
         </p>
 
         {/* --- Copyright / Trademark --- */}

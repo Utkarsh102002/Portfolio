@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import OverlayMenu from "./OverlayMenu";
 import { FiMenu } from "react-icons/fi";
-import Logo from "../assets/Logo.png"; // Update path if logo is moved
+// import Logo from "../assets/Logo.png"; // Update path if logo is moved
 
 export default function Navbar() {
   // State for controlling the overlay menu
@@ -87,7 +87,7 @@ export default function Navbar() {
       >
         {/* 🔹 Logo + Name */}
         <div className="flex items-center space-x-2">
-          <img src={Logo} alt="Logo" className="w-8 h-8" />
+          {/* <img src={Logo} alt="Logo" className="w-8 h-8" /> */}
           <div className="text-2xl font-bold text-white hidden sm:block">
             Utkarsh
           </div>
