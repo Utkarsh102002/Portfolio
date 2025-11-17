@@ -110,9 +110,9 @@ const Experience = () => {
   }, []);
 
   // Dynamic scene height
-  const SCENE_HEIGHT_VH = isMobile
-    ? 100 * experiences.length * 1.6
-    : 100 * experiences.length * 1.2;
+ const SCENE_HEIGHT_VH = isMobile
+  ? 100 * experiences.length * 2.2 
+  : 100 * experiences.length * 1.2;
 
   // Scroll progress
   const { scrollYProgress } = useScroll({
@@ -179,7 +179,7 @@ const Experience = () => {
             </div>
 
             {/* ====================== MOBILE ====================== */}
-            <div className="relative w-full max-w-md md:hidden">
+            <div className="relative w-full max-w-md md:hidden min-h-[200vh] pb-45">
               {/* Vertical rail */}
               <div className="absolute left-0 top-0 bottom-0 w-[6px] bg-white/15 rounded">
                 <motion.div
@@ -189,7 +189,7 @@ const Experience = () => {
               </div>
 
               {/* Mobile items */}
-              <div className="relative flex flex-col gap-10 ml-10 mt-6 pb-28">
+              <div className="relative flex flex-col gap-3 ml-10 mt-6 pb-28">
                 {experiences.map((exp, idx) => {
                   const start = idx === 0 ? 0 : thresholds[idx - 1];
                   const end = thresholds[idx];

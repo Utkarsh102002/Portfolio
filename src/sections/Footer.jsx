@@ -68,12 +68,11 @@ const Footer = () => {
           <h1
             className="font-bangers font-semibold leading-none text-white text-center select-none"
             style={{
-              fontSize: "clamp(3rem, 5vw, 14rem)", // Responsive scaling
+              fontSize: "clamp(2rem, 4vw, 14rem)",
               letterSpacing: "0.02em",
               lineHeight: 0.9,
               paddingLeft: "3vw",
               paddingRight: "3vw",
-              whiteSpace: "nowrap",
               textShadow: "0 2px 18px rgba(0,0,0,0.45)",
             }}
           >
