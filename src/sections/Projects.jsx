@@ -4,9 +4,8 @@ import { motion, useScroll, AnimatePresence } from "framer-motion";
 
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
-
-
-
+import img3 from "../assets/img3.png";
+import img4 from "../assets/img4.png";
 const MH3 = motion.h3;
 
 function useIsMobile(query = "(max-width: 639px)") {
@@ -39,6 +38,13 @@ export default function Projects() {
   const baseProjects = React.useMemo(
     () => [
       {
+        title: "Tinder For Developer",
+        link: "http://51.20.125.6/",
+        bgColor: "#0d4d3d",
+        desktop: img3,
+        mobile: img3,
+      },
+      {
         title: "Ai Trip Planner",
         link: "https://ai-trip-planner-six-ivory.vercel.app/create-new-trip",
         bgColor: "#0d4d3d",
@@ -53,9 +59,11 @@ export default function Projects() {
         mobile: img2,
       },
       {
-        title: "coming Soon",
-        link: "coming Soon",
-       
+        title: "DashBoard",
+        link: "https://dashboard-pi-seven-13.vercel.app/",
+        bgColor: "#3884d3",
+        desktop: img4,
+        mobile: img4,
       },
     ],
     []
